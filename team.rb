@@ -15,7 +15,7 @@ class Team
         end
     
     def show_team_result()
-       puts "#{self.name}の2020年の成績は#{self.win}勝#{self.lose}敗#{self.draw}分、勝率は {calc_win_rate}"
+       puts "#{self.name}の2020年の成績は#{self.win}勝#{self.lose}敗#{self.draw}分、勝率は #{self.calc_win_rate}"
     end
 end
     giants = Team.new("giants",67,45,8)
